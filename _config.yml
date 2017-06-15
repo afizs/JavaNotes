@@ -1,0 +1,81 @@
+# SITE CONFIGURATION
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://java.ramswaroop.me" # the base hostname & protocol for your site
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Java Notes
+  avatar: java-logo.png
+  gravatar: # Email MD5 hash
+  description: "A website with blog posts and pages" # used by search engines
+
+  # Header and footer text
+#  header_text: >
+#     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+#
+#     <p>Remove all header text in <code>_config.yml</code> to disable this feature.</p>
+     
+#  header_text_feature_image:
+  footer_text: >
+   Carefully curated by <a href="http://www.ramswaroop.me">Ram swaroop</a>. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>.
+
+  # Icons
+  rss: true
+  email_address: # Full email address, e.g. "sam@example.com"
+  behance:
+  bitbucket:
+  dribbble:
+  facebook: "ramswaroop"
+  flickr:
+  github: "ramswaroop/java-concepts"
+  google_plus:
+  instagram:
+  linkedin: "https://in.linkedin.com/in/ramswarooppatra" # Full URL
+  pinterest:
+  reddit:
+  soundcloud:
+  stack_exchange: "http://stackexchange.com/users/1405987/ram-swaroop" # Full URL
+  steam:
+  tumblr:
+  twitter: "ramswarooppatra"
+  wordpress:
+  youtube:
+
+  # Scripts
+  google_analytics: "UA-46465113-3" # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname: "javaconceptscomments"
+  katex: true # Enable if using math markup
+
+  # Localization strings
+  str_follow_on: "Follow on"
+  str_rss_follow: "Follow RSS feed"
+  str_email: "Email"
+  str_next: "Next"
+  str_prev: "Previous"
+  str_continue_reading: "Continue reading"
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# POST NAVIGATION
+post_navigation: true
+
+# PLUGINS
+gems: [jekyll-picture-tag, jekyll-paginate]
+
+# JEKYLL PICTURE TAG SETTINGS
+picture:
+  source: "img/posts"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
