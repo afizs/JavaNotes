@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://java.ramswaroop.me" # the base hostname & protocol for your site
+url: "https://afizs.github.io/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -18,7 +18,7 @@ theme_settings:
      
 #  header_text_feature_image:
   footer_text: >
-   Carefully curated by <a href="http://www.ramswaroop.me">Ram swaroop</a>. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>.
+   Carefully curated by <a href="https://afizs.github.io/">Afiz</a>. Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>.
 
   # Icons
   rss: true
@@ -26,21 +26,21 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook: "afizs23"
+  facebook: "afizs"
   flickr:
-  github: "ramswaroop/java-concepts"
+  github: "afizs/javanotes"
   google_plus:
   instagram:
-  linkedin: "https://in.linkedin.com/in/ramswarooppatra" # Full URL
+  linkedin: # Full URL
   pinterest:
   reddit:
   soundcloud:
-  stack_exchange: "http://stackexchange.com/users/1405987/ram-swaroop" # Full URL
+  stack_exchange: # Full URL
   steam:
   tumblr:
-  twitter: "ramswarooppatra"
+  twitter: "itsafiz"
   wordpress:
-  youtube:
+  youtube: "afizshaik"
 
   # Scripts
   google_analytics: "UA-46465113-3" # Tracking ID, e.g. "UA-000000-01"
